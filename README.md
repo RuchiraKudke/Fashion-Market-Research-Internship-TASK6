@@ -1,210 +1,60 @@
 # Task 6 – Presentation and Reporting
 
-## Fashion Market Research and Data Analysis
+## Fashion Market Research
 
-### Overview
+This repository contains the final deliverable for **Task 6 – Presentation and Reporting** of the Fashion Market Research internship.
 
-This repository contains the work completed for **Task 6 – Presentation and Reporting** as part of the Fashion Market Research internship.
-
-The purpose of this task was to consolidate the findings from the previous tasks into a structured report covering:
-
-- Market research and data collection
-- Data cleaning and preprocessing
-- Exploratory data analysis
-- Power BI visualization
-- Predictive modelling
-- Strategic recommendations
-- Overall findings and business implications
-
-The final report combines the results obtained throughout the previous tasks into one comprehensive and logically structured document.
-
+The task consolidates the work completed across the previous tasks into a structured final report covering the complete data analysis workflow.
 
 ## Objective
 
-The main objective of Task 6 was to present the complete fashion market research workflow in a clear and organized manner.
+The objective of this task is to present the research, analysis, predictive modelling, and strategic recommendations in a clear and organized final report.
 
-The report focuses on identifying:
+## Work Covered
 
-- Pricing patterns across fashion brands
-- Product and category distribution
-- Customer engagement and popularity
-- Sustainability trends
-- Factors associated with product pricing
-- Strategic recommendations based on analytical findings
+* Market Research and Data Collection
+* Data Cleaning and Preprocessing
+* Exploratory Data Analysis
+* Power BI Dashboard and Visualization
+* Predictive Modelling
+* Strategic Recommendations
+* Final Findings and Conclusion
 
+## Tools Used
 
-## Brands Covered
-
-The analysis covers five fashion brands:
-
-- Nike
-- Chanel
-- Louis Vuitton
-- Zara
-- Gucci
-
-These brands represent different segments of the fashion market, including luxury fashion, mass fashion, and sportswear.
-
+* Python
+* Jupyter Notebook
+* Power BI
+* Microsoft Word
+* GitHub
 
 ## Dataset
 
-The updated dataset used for the final analysis contains:
+The final analysis uses the **updated dataset containing 173 records and 19 columns**, with data covering:
 
-- **173 product records**
-- **19 columns**
+* Nike
+* Chanel
+* Louis Vuitton
+* Zara
+* Gucci
 
-The dataset includes information such as:
+The dataset was updated before the analysis and modelling stages to ensure complete brand coverage.
 
-- Brand
-- Product Category
-- Sub Category
-- Product Name
-- Price_INR
-- Availability
-- Target Age Group
-- Segment
-- Country of Origin
-- Sustainability Score
-- Store Type
-- Stock Units
-- Ratings
-- Reviews Count
-- Date Added
-- Size Variants
-- Color Variants
-- SKU
+## Final Deliverable
 
-### Dataset Update
+The main deliverable in this repository is the **Task 6 Presentation and Reporting document**, which brings together the findings and outputs from the previous tasks.
 
-During the transition from Task 2 to Task 3, the dataset was reviewed and updated to ensure complete brand coverage.
+## Repository Contents
 
-The initial Task 2 submission contained an incomplete version of the dataset because records for **Zara were unintentionally omitted**. This was identified before proceeding with the analysis, and the dataset was updated before Task 3.
+```text
+Task-6-Presentation-and-Reporting/
+│
+├── README.md
+└── Week_6_Final_Fashion_Market_Research_Report.docx
+```
 
-Therefore, the **updated 173-record dataset** was used for:
+## Author
 
-- Power BI analysis
-- Data visualization
-- Predictive modelling
-- Strategic recommendations
-- Final Task 6 reporting
+**Ruchira Kudke**
 
-This ensures that the final analytical findings are based on the corrected dataset.
-
-
-
-## Tools and Technologies
-
-The following tools were used throughout the tasks:
-
-- **Microsoft Excel / CSV** – Dataset preparation and review
-- **Python** – Data preprocessing and predictive modelling
-- **Jupyter Notebook** – Model development and evaluation
-- **Power BI** – Data visualization and dashboard creation
-- **Microsoft Word** – Final report preparation
-- **GitHub** – Project documentation and version management
-
-### Python Libraries
-
-The predictive modelling work used Python libraries including:
-
-- pandas
-- NumPy
-- scikit-learn
-- matplotlib
-
-
-## Project Workflow
-
-The overall workflow followed these stages:
-
-### 1. Market Research and Data Collection
-
-Market information was collected for Nike, Chanel, Louis Vuitton, Zara, and Gucci.
-
-The research focused on:
-
-- Product categories
-- Pricing
-- Brand positioning
-- Sustainability
-- Customer engagement
-- Social media presence
-- Market trends
-
----
-
-### 2. Data Cleaning and Preprocessing
-
-The dataset was reviewed and prepared before analysis.
-
-The preprocessing workflow included:
-
-- Handling missing values
-- Correcting incorrectly placed values
-- Standardizing dates
-- Converting numerical columns into appropriate data types
-- Validating ratings and sustainability scores
-- Checking duplicate records and SKUs
-- Checking invalid and negative numerical values
-- Reviewing potential outliers
-
-After the dataset was updated, the complete dataset was used for the subsequent analytical tasks.
-
-
-### 3. Exploratory Data Analysis
-
-The dataset was analyzed to understand:
-
-- Brand-level pricing
-- Sustainability scores
-- Customer ratings
-- Product categories
-- Market segments
-- Customer engagement
-- Product popularity
-
-Some key observations from the analysis include:
-
-- Chanel had the highest average product price among the analyzed brands.
-- Louis Vuitton also showed a high average price level.
-- Nike and Zara had substantially lower average prices than the luxury brands.
-- The overall average customer rating was approximately **4.5/5**.
-- Apparel and accessories represented major portions of the product sample.
-- Apparel generated the highest review volume among the analyzed categories.
-
-
-## Power BI Dashboard
-
-A Power BI dashboard was created to present the major analytical findings interactively.
-
-### Key KPIs
-
-The dashboard includes:
-
-- **Total Products:** 173
-- **Average Price:** approximately ₹75K
-- **Average Rating:** 4.5
-- **Total Reviews:** approximately 32K
-- **Average Sustainability Score:** 4.9
-
-### Visualizations
-
-The dashboard contains visualizations for:
-
-- Average Price by Brand
-- Average Sustainability Score by Brand
-- Price vs Rating by Brand
-- Product Mix by Segment
-- Product Popularity by Category
-- Customer Engagement by Product Category
-
-These visualizations were used to identify patterns and differences across brands, categories, and market segments.
-
-
-## Predictive Modelling
-
-Predictive modelling was performed to estimate **product price (Price_INR)** using selected product and market-related features.
-
-### Target Variable
-
-Price_INR
+MCA – Artificial Intelligence & Data Science

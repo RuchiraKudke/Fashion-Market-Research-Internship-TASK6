@@ -50,7 +50,7 @@ The main deliverable in this repository is the **Task 6 Presentation and Reporti
 Task-6-Presentation-and-Reporting/
 │
 ├── README.md
-└── Week_6_Final_Fashion_Market_Research_Report.docx
+└── TASK 6.docx
 ```
 
 ## Author
